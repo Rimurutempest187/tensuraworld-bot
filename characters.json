@@ -1,26 +1,254 @@
 [
   {
     "id": 1,
-    "name": "Naruto Uzumaki",
-    "rarity": "SSR",
-    "anime": "Naruto"
+    "name": "Rimuru Tempest",
+    "rarity": "Legendary",
+    "price": 500,
+    "image_url": "https://example.com/images/rimuru.jpg"
   },
   {
     "id": 2,
-    "name": "Monkey D. Luffy",
-    "rarity": "SSR",
-    "anime": "One Piece"
+    "name": "Shizu",
+    "rarity": "Epic",
+    "price": 400,
+    "image_url": "https://example.com/images/shizu.jpg"
   },
   {
     "id": 3,
-    "name": "Goku",
-    "rarity": "UR",
-    "anime": "Dragon Ball"
+    "name": "Benimaru",
+    "rarity": "Epic",
+    "price": 350,
+    "image_url": "https://example.com/images/benimaru.jpg"
   },
   {
     "id": 4,
-    "name": "Tanjiro Kamado",
-    "rarity": "SR",
-    "anime": "Demon Slayer"
+    "name": "Shion",
+    "rarity": "Rare",
+    "price": 300,
+    "image_url": "https://example.com/images/shion.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Souei",
+    "rarity": "Rare",
+    "price": 280,
+    "image_url": "https://example.com/images/souei.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Hakuro",
+    "rarity": "Rare",
+    "price": 250,
+    "image_url": "https://example.com/images/hakuro.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Milim Nava",
+    "rarity": "Legendary",
+    "price": 600,
+    "image_url": "https://example.com/images/milim.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Diablo",
+    "rarity": "Legendary",
+    "price": 550,
+    "image_url": "https://example.com/images/diablo.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Ranga",
+    "rarity": "Epic",
+    "price": 320,
+    "image_url": "https://example.com/images/ranga.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Gobta",
+    "rarity": "Common",
+    "price": 100,
+    "image_url": "https://example.com/images/gobta.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Treyni",
+    "rarity": "Rare",
+    "price": 280,
+    "image_url": "https://example.com/images/treyni.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Veldora",
+    "rarity": "Legendary",
+    "price": 700,
+    "image_url": "https://example.com/images/veldora.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Gazelle Dwargo",
+    "rarity": "Epic",
+    "price": 350,
+    "image_url": "https://example.com/images/gazelle.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Hinata Sakaguchi",
+    "rarity": "Epic",
+    "price": 400,
+    "image_url": "https://example.com/images/hinata.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Leon Cromwell",
+    "rarity": "Legendary",
+    "price": 650,
+    "image_url": "https://example.com/images/leon.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Yuuki Kagurazaka",
+    "rarity": "Epic",
+    "price": 380,
+    "image_url": "https://example.com/images/yuuki.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Kurobe",
+    "rarity": "Rare",
+    "price": 260,
+    "image_url": "https://example.com/images/kurobe.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Kaijin",
+    "rarity": "Common",
+    "price": 150,
+    "image_url": "https://example.com/images/kaijin.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Eren",
+    "rarity": "Epic",
+    "price": 370,
+    "image_url": "https://example.com/images/eren.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Mikasa",
+    "rarity": "Epic",
+    "price": 370,
+    "image_url": "https://example.com/images/mikasa.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Armin",
+    "rarity": "Rare",
+    "price": 280,
+    "image_url": "https://example.com/images/armin.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Levi Ackerman",
+    "rarity": "Legendary",
+    "price": 700,
+    "image_url": "https://example.com/images/levi.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Erwin Smith",
+    "rarity": "Epic",
+    "price": 400,
+    "image_url": "https://example.com/images/erwin.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Hange Zoe",
+    "rarity": "Rare",
+    "price": 300,
+    "image_url": "https://example.com/images/hange.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Sasha Blouse",
+    "rarity": "Common",
+    "price": 180,
+    "image_url": "https://example.com/images/sasha.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Goku",
+    "rarity": "Legendary",
+    "price": 800,
+    "image_url": "https://example.com/images/goku.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Vegeta",
+    "rarity": "Legendary",
+    "price": 750,
+    "image_url": "https://example.com/images/vegeta.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Piccolo",
+    "rarity": "Epic",
+    "price": 400,
+    "image_url": "https://example.com/images/piccolo.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Gohan",
+    "rarity": "Epic",
+    "price": 420,
+    "image_url": "https://example.com/images/gohan.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Krillin",
+    "rarity": "Rare",
+    "price": 280,
+    "image_url": "https://example.com/images/krillin.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Bulma",
+    "rarity": "Rare",
+    "price": 300,
+    "image_url": "https://example.com/images/bulma.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Android 18",
+    "rarity": "Epic",
+    "price": 420,
+    "image_url": "https://example.com/images/android18.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Frieza",
+    "rarity": "Legendary",
+    "price": 800,
+    "image_url": "https://example.com/images/frieza.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Cell",
+    "rarity": "Legendary",
+    "price": 750,
+    "image_url": "https://example.com/images/cell.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Majin Buu",
+    "rarity": "Legendary",
+    "price": 700,
+    "image_url": "https://example.com/images/buu.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Naruto Uzumaki",
+    "rarity": "Legendary",
+    "price": 800,
+    "image_url": "https://example.com/images/naruto.jpg"
   }
 ]
