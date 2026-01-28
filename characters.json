@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Naruto Uzumaki",
+    "rarity": "SSR",
+    "anime": "Naruto"
+  },
+  {
+    "id": 2,
+    "name": "Monkey D. Luffy",
+    "rarity": "SSR",
+    "anime": "One Piece"
+  },
+  {
+    "id": 3,
+    "name": "Goku",
+    "rarity": "UR",
+    "anime": "Dragon Ball"
+  },
+  {
+    "id": 4,
+    "name": "Tanjiro Kamado",
+    "rarity": "SR",
+    "anime": "Demon Slayer"
+  }
+]
