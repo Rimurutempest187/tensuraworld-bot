@@ -71,41 +71,86 @@ def get_user_data(users: Dict, user_id: str) -> Dict:
             "last_bonus": ""
         }
     return users[user_id]
+from datetime import datetime, timedelta
 
 # ---------- Command Handlers ----------
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+
+async def myinfo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    user_id = str(update.effective_user.id)
+    users = load_data(USER_FILE)
+    user_data = get_user_data(users, user_id)
+
+    name = update.effective_user.full_name
+    coins = user_data.get("coins", 0)
+    collection_count = len(user_data.get("cards", []))
+
     await update.message.reply_text(
-        "👋 Welcome to the Character Collection Bot!\n\n"
-        "🎮 Commands:\n"
-        "/roll - Roll a new character (Free)\n"
-        "/bal - Check your coin balance\n"
-        "/bonus - Claim your daily 50 coins\n"
-        "/store - View character list\n"
-        "/buy <id> - Buy a specific character"
+        f"👤 Player Info\n"
+        f"🆔 ID: {user_id}\n"
+        f"📛 Name: {name}\n"
+        f"💰 Coins: {coins}\n"
+        f"🎴 Collection: {collection_count} characters"
     )
 
-async def roll(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+async def collection(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     user_id = str(update.effective_user.id)
+    users = load_data(USER_FILE)
+    user_data = get_user_data(users, user_id)
+
+    cards = user_data.get("cards", [])
+    if not cards:
+        await update.message.reply_text("❌ You don't own any characters yet.")
+        return
+
+    lines = ["🎴 Your Collection:"]
+    for c in cards:
+        lines.append(f"🆔 {c['id']} | {c['name']} ({c['rarity']})")
+
+    text = "\n".join(lines)
+    if len(text) > 4000:
+        await update.message.reply_text(text[:4000])
+    else:
+        await update.message.reply_text(text)
+
+# ---------- Smash with Cooldown ----------
+async def smash(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    user_id = str(update.effective_user.id)
+    users = load_data(USER_FILE)
+    user_data = get_user_data(users, user_id)
+
+    # Cooldown check
+    last_smash = user_data.get("last_smash")
+    now = datetime.now()
+
+    if last_smash:
+        last_time = datetime.strptime(last_smash, "%Y-%m-%d %H:%M:%S")
+        if now - last_time < timedelta(minutes=1):
+            remaining = 60 - int((now - last_time).seconds)
+            await update.message.reply_text(
+                f"⏳ Please wait {remaining} seconds before smashing again!"
+            )
+            return
+
+    # Save new smash time
+    user_data["last_smash"] = now.strftime("%Y-%m-%d %H:%M:%S")
+    save_data(USER_FILE, users)
+
+    # Smash logic (same as roll)
     characters = load_data(CHAR_FILE)
-    
     if not characters:
         await update.message.reply_text("❌ No characters found in database.")
         return
 
-    users = load_data(USER_FILE)
-    user_data = get_user_data(users, user_id)
-
     char = random.choice(characters)
     char_id = str(char.get("id"))
-    
     owned_ids = [str(c.get("id")) for c in user_data.get("cards", [])]
-    
+
     if char_id not in owned_ids:
         user_data["cards"].append(char)
         save_data(USER_FILE, users)
-        msg = f"🎉 [NEW] You obtained {char.get('name')}! ({char.get('rarity')})"
+        msg = f"🎉 [NEW] You smashed and obtained {char.get('name')}! ({char.get('rarity')})"
     else:
-        msg = f"🔄 You rolled {char.get('name')} again (Already owned)."
+        msg = f"🔄 You smashed {char.get('name')} again (Already owned)."
 
     image_url = char.get("image_url")
     if image_url:
@@ -117,77 +162,6 @@ async def roll(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     else:
         await update.message.reply_text(msg)
 
-async def bonus(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    user_id = str(update.effective_user.id)
-    users = load_data(USER_FILE)
-    user_data = get_user_data(users, user_id)
-    
-    today = datetime.now().strftime("%Y-%m-%d")
-    if user_data.get("last_bonus") == today:
-        await update.message.reply_text("🎁 You've already claimed your bonus today. Come back tomorrow!")
-        return
-
-    user_data["coins"] += 50
-    user_data["last_bonus"] = today
-    save_data(USER_FILE, users)
-    await update.message.reply_text(f"🎉 +50 coins added! Current balance: {user_data['coins']} 💰")
-
-async def bal(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    user_id = str(update.effective_user.id)
-    users = load_data(USER_FILE)
-    user_data = get_user_data(users, user_id)
-    await update.message.reply_text(f"💰 Balance: {user_data['coins']} coins.\n🎴 Cards Owned: {len(user_data['cards'])}")
-
-async def store(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    characters = load_data(CHAR_FILE)
-    if not characters:
-        await update.message.reply_text("🛒 Store is currently empty.")
-        return
-
-    lines = ["🛒 **Character Store** (Use /buy <id>)"]
-    for c in characters:
-        price = c.get("price", 100)
-        lines.append(f"🆔 `{c['id']}` | {c['name']} - 💰 {price}")
-    
-    text = "\n".join(lines)
-    if len(text) > 4000:
-        await update.message.reply_text(text[:4000])
-    else:
-        await update.message.reply_text(text, parse_mode="Markdown")
-
-async def buy(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    if not context.args:
-        await update.message.reply_text("⚠️ Usage: /buy <character_id>")
-        return
-
-    user_id = str(update.effective_user.id)
-    char_id_to_buy = str(context.args[0])
-    
-    users = load_data(USER_FILE)
-    characters = load_data(CHAR_FILE)
-    user_data = get_user_data(users, user_id)
-
-    char = next((c for c in characters if str(c.get("id")) == char_id_to_buy), None)
-
-    if not char:
-        await update.message.reply_text("❌ Invalid Character ID.")
-        return
-
-    price = char.get("price", 100)
-    if user_data["coins"] < price:
-        await update.message.reply_text(f"❌ Inadequate coins! Need {price} coins.")
-        return
-
-    owned_ids = [str(c.get("id")) for c in user_data.get("cards", [])]
-    if char_id_to_buy in owned_ids:
-        await update.message.reply_text("✅ You already own this character.")
-        return
-
-    user_data["coins"] -= price
-    user_data["cards"].append(char)
-    save_data(USER_FILE, users)
-
-    await update.message.reply_text(f"🛒 Purchased {char['name']} for {price} coins!")
 
 # ---------- Main ----------
 def main() -> None:
@@ -201,14 +175,18 @@ def main() -> None:
     app = ApplicationBuilder().token(token).build()
 
     app.add_handler(CommandHandler("start", start))
-    app.add_handler(CommandHandler("roll", roll))
+    app.add_handler(CommandHandler("smash", smash))   # changed from roll
     app.add_handler(CommandHandler("bonus", bonus))
     app.add_handler(CommandHandler("bal", bal))
     app.add_handler(CommandHandler("store", store))
     app.add_handler(CommandHandler("buy", buy))
+    app.add_handler(CommandHandler("myinfo", myinfo))
+    app.add_handler(CommandHandler("collection", collection))
 
     logger.info("🤖 Bot is starting...")
     app.run_polling()
 
+
 if __name__ == "__main__":
     main()
+
