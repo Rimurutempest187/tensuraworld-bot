@@ -75,7 +75,66 @@ def store(update: Update, context: CallbackContext):
     for c in data:
         message += f"{c['id']} - {c['name']} ({c['rarity']}) - {c['price']} coins\n"
     update.message.reply_text(message)
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.ext import CommandHandler, CallbackQueryHandler, CallbackContext
 
+# /store <faction> with buttons
+def store(update: Update, context: CallbackContext):
+    faction = context.args[0] if context.args else "tempest"
+    data = load_faction_data(faction)
+    if not data:
+        update.message.reply_text("❌ Faction not found.")
+        return
+
+    keyboard = []
+    for c in data[:10]:  # show first 10 for demo
+        keyboard.append([InlineKeyboardButton(
+            f"{c['name']} ({c['price']} coins)", callback_data=f"buy_{c['id']}")])
+
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    update.message.reply_text(f"🛒 Store - {faction.capitalize()} (click to buy):", reply_markup=reply_markup)
+
+# Handle button clicks
+def button_handler(update: Update, context: CallbackContext):
+    query = update.callback_query
+    query.answer()
+
+    user_id = str(query.from_user.id)
+    users = load_users()
+    if user_id not in users:
+        query.edit_message_text("❌ Please use /start first.")
+        return
+
+    if query.data.startswith("buy_"):
+        char_id = int(query.data.split("_")[1])
+        all_factions = ["tempest", "demonlords", "humans", "holychurch", "eastern_empire", "dragons"]
+        character = None
+
+        for faction in all_factions:
+            data = load_faction_data(faction)
+            for c in data:
+                if c["id"] == char_id:
+                    character = c
+                    break
+            if character:
+                break
+
+        if not character:
+            query.edit_message_text("❌ Character not found.")
+            return
+
+        if character["id"] in users[user_id]["characters"]:
+            query.edit_message_text("⚠️ You already own this character.")
+            return
+
+        if users[user_id]["coins"] < character["price"]:
+            query.edit_message_text("💸 Not enough coins.")
+            return
+
+        users[user_id]["coins"] -= character["price"]
+        users[user_id]["characters"].append(character["id"])
+        save_users(users)
+        query.edit_message_text(f"✅ You bought {character['name']} for {character['price']} coins!")
 # /buy <id>
 def buy(update: Update, context: CallbackContext):
     user_id = str(update.effective_user.id)
@@ -138,6 +197,8 @@ def leaderboard(update: Update, context: CallbackContext):
 
 # Main bot setup
 def main():
+    from telegram.ext import Updater
+
     updater = Updater("YOUR_BOT_TOKEN", use_context=True)
     dp = updater.dispatcher
 
@@ -147,10 +208,12 @@ def main():
     dp.add_handler(CommandHandler("buy", buy))
     dp.add_handler(CommandHandler("bonus", bonus))
     dp.add_handler(CommandHandler("leaderboard", leaderboard))
+    dp.add_handler(CallbackQueryHandler(button_handler))  # handle inline buttons
 
     updater.start_polling()
     updater.idle()
 
 if __name__ == "__main__":
     main()
+
 
