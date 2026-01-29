@@ -1,0 +1,402 @@
+[
+  {
+    "id": 151,
+    "name": "Luminous Valentine",
+    "rarity": "Legendary",
+    "price": 700,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/l/lv/Luminous.png"
+  },
+  {
+    "id": 152,
+    "name": "Hinata Sakaguchi",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/h/hs/Hinata.png"
+  },
+  {
+    "id": 153,
+    "name": "Arnaud",
+    "rarity": "Epic",
+    "price": 380,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/an/Arnaud.png"
+  },
+  {
+    "id": 154,
+    "name": "Bacchus",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/b/bc/Bacchus.png"
+  },
+  {
+    "id": 155,
+    "name": "Ritus",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/r/rt/Ritus.png"
+  },
+  {
+    "id": 156,
+    "name": "Glenda",
+    "rarity": "Epic",
+    "price": 380,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/g/gl/Glenda.png"
+  },
+  {
+    "id": 157,
+    "name": "Grigori",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/g/gr/Grigori.png"
+  },
+  {
+    "id": 158,
+    "name": "Velga",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/v/vg/Velga.png"
+  },
+  {
+    "id": 159,
+    "name": "Dante",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dt/Dante.png"
+  },
+  {
+    "id": 160,
+    "name": "Albert",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/ab/Albert.png"
+  },
+  {
+    "id": 161,
+    "name": "Boris",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/b/br/Boris.png"
+  },
+  {
+    "id": 162,
+    "name": "Lukas",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/l/lk/Lukas.png"
+  },
+  {
+    "id": 163,
+    "name": "Marius",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/m/mr/Marius.png"
+  },
+  {
+    "id": 164,
+    "name": "Sophia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sp/Sophia.png"
+  },
+  {
+    "id": 165,
+    "name": "Victor",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/v/vc/Victor.png"
+  },
+  {
+    "id": 166,
+    "name": "Helena",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/h/hl/Helena.png"
+  },
+  {
+    "id": 167,
+    "name": "Damien",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dm/Damien.png"
+  },
+  {
+    "id": 168,
+    "name": "Claudia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/c/cl/Claudia.png"
+  },
+  {
+    "id": 169,
+    "name": "Roland",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/r/rl/Roland.png"
+  },
+  {
+    "id": 170,
+    "name": "Isabella",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/i/ib/Isabella.png"
+  },
+  {
+    "id": 171,
+    "name": "Marcus",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/m/mc/Marcus.png"
+  },
+  {
+    "id": 172,
+    "name": "Elena",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/e/el/Elena.png"
+  },
+  {
+    "id": 173,
+    "name": "Sebastian",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sb/Sebastian.png"
+  },
+  {
+    "id": 174,
+    "name": "Cecilia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/c/cc/Cecilia.png"
+  },
+  {
+    "id": 175,
+    "name": "Adrian",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/ad/Adrian.png"
+  },
+  {
+    "id": 176,
+    "name": "Beatrice",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/b/bt/Beatrice.png"
+  },
+  {
+    "id": 177,
+    "name": "Oliver",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/o/ol/Oliver.png"
+  },
+  {
+    "id": 178,
+    "name": "Natalia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/n/nt/Natalia.png"
+  },
+  {
+    "id": 179,
+    "name": "Hector",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/h/hc/Hector.png"
+  },
+  {
+    "id": 180,
+    "name": "Camilla",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/c/cm/Camilla.png"
+  },
+  {
+    "id": 181,
+    "name": "Darius",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dr/Darius.png"
+  },
+  {
+    "id": 182,
+    "name": "Selene",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sl/Selene.png"
+  },
+  {
+    "id": 183,
+    "name": "Damian",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dm/Damian.png"
+  },
+  {
+    "id": 184,
+    "name": "Lucia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/l/lc/Lucia.png"
+  },
+  {
+    "id": 185,
+    "name": "Raphael",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/r/rp/Raphael.png"
+  },
+  {
+    "id": 186,
+    "name": "Sophina",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sp/Sophina.png"
+  },
+  {
+    "id": 187,
+    "name": "Leonard",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/l/ld/Leonard.png"
+  },
+  {
+    "id": 188,
+    "name": "Miranda",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/m/mr/Miranda.png"
+  },
+  {
+    "id": 189,
+    "name": "Oscar",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/o/os/Oscar.png"
+  },
+  {
+    "id": 190,
+    "name": "Ignatius",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/i/ig/Ignatius.png"
+  },
+  {
+    "id": 191,
+    "name": "Theresa",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/t/th/Theresa.png"
+  },
+  {
+    "id": 192,
+    "name": "Augustine",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/ag/Augustine.png"
+  },
+  {
+    "id": 193,
+    "name": "Benedict",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/b/bn/Benedict.png"
+  },
+  {
+    "id": 194,
+    "name": "Cyril",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/c/cr/Cyril.png"
+  },
+  {
+    "id": 195,
+    "name": "Dominic",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dc/Dominic.png"
+  },
+  {
+    "id": 196,
+    "name": "Ezekiel",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/e/ez/Ezekiel.png"
+  },
+  {
+    "id": 197,
+    "name": "Gabriel",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/g/gb/Gabriel.png"
+  },
+  {
+    "id": 198,
+    "name": "Michael",
+    "rarity": "Legendary",
+    "price": 750,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/m/mc/Michael.png"
+  },
+  {
+    "id": 199,
+    "name": "Uriel",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/u/ur/Uriel.png"
+  },
+  {
+    "id": 200,
+    "name": "Raphael",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Holy Church",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/r/rp/Raphael.png"
+  }
+]
