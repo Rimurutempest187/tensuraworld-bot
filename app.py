@@ -29,7 +29,7 @@ logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # ---------- Files ----------
-CHAR_FILE = "characters.json"
+CHAR_FILE = "tempest.json"
 USER_FILE = "users.json"
 
 # ---------- Helper Functions ----------
@@ -167,3 +167,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
