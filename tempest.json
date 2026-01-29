@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "name": "Rimuru Tempest",
+    "rarity": "Legendary",
+    "price": 500,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/3/3a/Rimuru_Anime.png"
+  },
+  {
+    "id": 2,
+    "name": "Benimaru",
+    "rarity": "Epic",
+    "price": 350,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/4/4a/Benimaru_Anime.png"
+  },
+  {
+    "id": 3,
+    "name": "Shion",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/5/5a/Shion_Anime.png"
+  },
+  {
+    "id": 4,
+    "name": "Souei",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/6/6a/Souei_Anime.png"
+  },
+  {
+    "id": 5,
+    "name": "Hakuro",
+    "rarity": "Rare",
+    "price": 250,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/7/7a/Hakuro_Anime.png"
+  },
+  {
+    "id": 6,
+    "name": "Ranga",
+    "rarity": "Epic",
+    "price": 320,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/8/8a/Ranga_Anime.png"
+  },
+  {
+    "id": 7,
+    "name": "Gobta",
+    "rarity": "Common",
+    "price": 100,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/9/9a/Gobta_Anime.png"
+  },
+  {
+    "id": 8,
+    "name": "Treyni",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/1/1a/Treyni_Anime.png"
+  },
+  {
+    "id": 9,
+    "name": "Kurobe",
+    "rarity": "Rare",
+    "price": 260,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/2/2a/Kurobe_Anime.png"
+  },
+  {
+    "id": 10,
+    "name": "Kaijin",
+    "rarity": "Common",
+    "price": 150,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/3/3a/Kaijin_Anime.png"
+  },
+  {
+    "id": 11,
+    "name": "Garm",
+    "rarity": "Common",
+    "price": 150,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/4/4a/Garm_Anime.png"
+  },
+  {
+    "id": 12,
+    "name": "Dord",
+    "rarity": "Common",
+    "price": 150,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/5/5a/Dord_Anime.png"
+  },
+  {
+    "id": 13,
+    "name": "Myuran",
+    "rarity": "Epic",
+    "price": 350,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/6/6a/Myuran_Anime.png"
+  },
+  {
+    "id": 14,
+    "name": "Eren",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/7/7a/Eren_Anime.png"
+  },
+  {
+    "id": 15,
+    "name": "Kurobe’s Apprentice",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/8/8a/Blacksmith_Anime.png"
+  },
+  {
+    "id": 16,
+    "name": "Eren",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/7/7a/Eren_Anime.png"
+  },
+  {
+    "id": 17,
+    "name": "Rigurd",
+    "rarity": "Rare",
+    "price": 260,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/8/8a/Rigurd_Anime.png"
+  },
+  {
+    "id": 18,
+    "name": "Rigur",
+    "rarity": "Common",
+    "price": 150,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/9/9a/Rigur_Anime.png"
+  },
+  {
+    "id": 19,
+    "name": "Gobchi",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/1/1a/Gobchi_Anime.png"
+  },
+  {
+    "id": 20,
+    "name": "Gobte",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/2/2a/Gobte_Anime.png"
+  },
+  {
+    "id": 21,
+    "name": "Gobmi",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/3/3a/Gobmi_Anime.png"
+  },
+  {
+    "id": 22,
+    "name": "Gobso",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/4/4a/Gobso_Anime.png"
+  },
+  {
+    "id": 23,
+    "name": "Gobna",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/5/5a/Gobna_Anime.png"
+  },
+  {
+    "id": 24,
+    "name": "Gobro",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/6/6a/Gobro_Anime.png"
+  },
+  {
+    "id": 25,
+    "name": "Gobzu",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/7/7a/Gobzu_Anime.png"
+  },
+  {
+    "id": 26,
+    "name": "Gobse",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/8/8a/Gobse_Anime.png"
+  },
+  {
+    "id": 27,
+    "name": "Gobri",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/9/9a/Gobri_Anime.png"
+  },
+  {
+    "id": 28,
+    "name": "Gobda",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/1/1a/Gobda_Anime.png"
+  },
+  {
+    "id": 29,
+    "name": "Gobmu",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/2/2a/Gobmu_Anime.png"
+  },
+  {
+    "id": 30,
+    "name": "Gobne",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/3/3a/Gobne_Anime.png"
+  },
+  {
+    "id": 31,
+    "name": "Gobne",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/3/3a/Gobne_Anime.png"
+  },
+  {
+    "id": 32,
+    "name": "Gobmu",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/2/2a/Gobmu_Anime.png"
+  },
+  {
+    "id": 33,
+    "name": "Gobse",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/8/8a/Gobse_Anime.png"
+  },
+  {
+    "id": 34,
+    "name": "Gobri",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/9/9a/Gobri_Anime.png"
+  },
+  {
+    "id": 35,
+    "name": "Gobda",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/1/1a/Gobda_Anime.png"
+  },
+  {
+    "id": 36,
+    "name": "Gobro",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/6/6a/Gobro_Anime.png"
+  },
+  {
+    "id": 37,
+    "name": "Gobna",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/5/5a/Gobna_Anime.png"
+  },
+  {
+    "id": 38,
+    "name": "Gobzu",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/7/7a/Gobzu_Anime.png"
+  },
+  {
+    "id": 39,
+    "name": "Gobmi",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/3/3a/Gobmi_Anime.png"
+  },
+  {
+    "id": 40,
+    "name": "Gobso",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/4/4a/Gobso_Anime.png"
+  },
+  {
+    "id": 41,
+    "name": "Gobte",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/2/2a/Gobte_Anime.png"
+  },
+  {
+    "id": 42,
+    "name": "Gobchi",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/1/1a/Gobchi_Anime.png"
+  },
+  {
+    "id": 43,
+    "name": "Gobshi",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/1/1a/Gobshi_Anime.png"
+  },
+  {
+    "id": 44,
+    "name": "Gobrius",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/9/9a/Gobrius_Anime.png"
+  },
+  {
+    "id": 45,
+    "name": "Gobniel",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/3/3a/Gobniel_Anime.png"
+  },
+  {
+    "id": 46,
+    "name": "Gobtan",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/2/2a/Gobtan_Anime.png"
+  },
+  {
+    "id": 47,
+    "name": "Gobren",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/4/4a/Gobren_Anime.png"
+  },
+  {
+    "id": 48,
+    "name": "Gobshi",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/5/5a/Gobshi_Anime.png"
+  },
+  {
+    "id": 49,
+    "name": "Gobral",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/6/6a/Gobral_Anime.png"
+  },
+  {
+    "id": 50,
+    "name": "Gobzen",
+    "rarity": "Common",
+    "price": 120,
+    "faction": "Tempest",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/7/7a/Gobzen_Anime.png"
+  }
+]
