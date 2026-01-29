@@ -1,0 +1,410 @@
+[
+  {
+    "id": 251,
+    "name": "Veldora Tempest",
+    "rarity": "Legendary",
+    "price": 800,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/v/vd/Veldora.png"
+  },
+  {
+    "id": 252,
+    "name": "Velgrynd",
+    "rarity": "Legendary",
+    "price": 850,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/v/vg/Velgrynd.png"
+  },
+  {
+    "id": 253,
+    "name": "Velzard",
+    "rarity": "Legendary",
+    "price": 850,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/v/vz/Velzard.png"
+  },
+  {
+    "id": 254,
+    "name": "Velgaia",
+    "rarity": "Legendary",
+    "price": 850,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/v/vg/Velgaia.png"
+  },
+  {
+    "id": 255,
+    "name": "Milim Nava (Dragon Form)",
+    "rarity": "Legendary",
+    "price": 900,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/m/mn/MilimDragon.png"
+  },
+  {
+    "id": 256,
+    "name": "Charybdis",
+    "rarity": "Epic",
+    "price": 500,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/c/ch/Charybdis.png"
+  },
+  {
+    "id": 257,
+    "name": "Ifrit",
+    "rarity": "Epic",
+    "price": 450,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/i/if/Ifrit.png"
+  },
+  {
+    "id": 258,
+    "name": "Kura",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/k/kr/Kura.png"
+  },
+  {
+    "id": 259,
+    "name": "Draco",
+    "rarity": "Rare",
+    "price": 320,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dr/Draco.png"
+  },
+  {
+    "id": 260,
+    "name": "Ignis",
+    "rarity": "Rare",
+    "price": 320,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/i/ig/Ignis.png"
+  },
+  {
+    "id": 261,
+    "name": "Hydra",
+    "rarity": "Epic",
+    "price": 480,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/h/hd/Hydra.png"
+  },
+  {
+    "id": 262,
+    "name": "Bahamut",
+    "rarity": "Legendary",
+    "price": 900,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/b/bh/Bahamut.png"
+  },
+  {
+    "id": 263,
+    "name": "Fafnir",
+    "rarity": "Epic",
+    "price": 500,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/f/fn/Fafnir.png"
+  },
+  {
+    "id": 264,
+    "name": "Nidhogg",
+    "rarity": "Epic",
+    "price": 500,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/n/nd/Nidhogg.png"
+  },
+  {
+    "id": 265,
+    "name": "Tiamat",
+    "rarity": "Legendary",
+    "price": 950,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/t/tt/Tiamat.png"
+  },
+  {
+    "id": 266,
+    "name": "Ryujin",
+    "rarity": "Epic",
+    "price": 480,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/r/rj/Ryujin.png"
+  },
+  {
+    "id": 267,
+    "name": "Shenlong",
+    "rarity": "Epic",
+    "price": 480,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sl/Shenlong.png"
+  },
+  {
+    "id": 268,
+    "name": "Dracul",
+    "rarity": "Rare",
+    "price": 320,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dc/Dracul.png"
+  },
+  {
+    "id": 269,
+    "name": "Wyvern",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/w/wv/Wyvern.png"
+  },
+  {
+    "id": 270,
+    "name": "Leviathan",
+    "rarity": "Legendary",
+    "price": 950,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/l/lv/Leviathan.png"
+  },
+  {
+    "id": 271,
+    "name": "Ouroboros",
+    "rarity": "Epic",
+    "price": 480,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/o/ou/Ouroboros.png"
+  },
+  {
+    "id": 272,
+    "name": "Quetzalcoatl",
+    "rarity": "Legendary",
+    "price": 950,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/q/qc/Quetzalcoatl.png"
+  },
+  {
+    "id": 273,
+    "name": "Jormungandr",
+    "rarity": "Legendary",
+    "price": 950,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/j/jg/Jormungandr.png"
+  },
+  {
+    "id": 274,
+    "name": "Ananta",
+    "rarity": "Epic",
+    "price": 500,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/an/Ananta.png"
+  },
+  {
+    "id": 275,
+    "name": "Typhon",
+    "rarity": "Legendary",
+    "price": 950,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/t/tp/Typhon.png"
+  },
+  {
+    "id": 276,
+    "name": "Bahamut (True Form)",
+    "rarity": "Legendary",
+    "price": 1000,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/b/bh/BahamutTrue.png"
+  },
+  {
+    "id": 277,
+    "name": "Draconis",
+    "rarity": "Rare",
+    "price": 320,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dc/Draconis.png"
+  },
+  {
+    "id": 278,
+    "name": "Azhdaha",
+    "rarity": "Epic",
+    "price": 480,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/az/Azhdaha.png"
+  },
+  {
+    "id": 279,
+    "name": "Naga",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/n/ng/Naga.png"
+  },
+  {
+    "id": 280,
+    "name": "Garuda",
+    "rarity": "Epic",
+    "price": 480,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/g/gr/Garuda.png"
+  },
+  {
+    "id": 281,
+    "name": "Rathalos",
+    "rarity": "Epic",
+    "price": 500,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/r/rt/Rathalos.png"
+  },
+  {
+    "id": 282,
+    "name": "Seregios",
+    "rarity": "Epic",
+    "price": 480,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sg/Seregios.png"
+  },
+  {
+    "id": 283,
+    "name": "Alatreon",
+    "rarity": "Legendary",
+    "price": 950,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/al/Alatreon.png"
+  },
+  {
+    "id": 284,
+    "name": "Fatalis",
+    "rarity": "Legendary",
+    "price": 1000,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/f/ft/Fatalis.png"
+  },
+  {
+    "id": 285,
+    "name": "Valstrax",
+    "rarity": "Epic",
+    "price": 500,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/v/vx/Valstrax.png"
+  },
+  {
+    "id": 286,
+    "name": "Kushala Daora",
+    "rarity": "Epic",
+    "price": 480,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/k/kd/Kushala.png"
+  },
+  {
+    "id": 287,
+    "name": "Teostra",
+    "rarity": "Epic",
+    "price": 480,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/t/ts/Teostra.png"
+  },
+  {
+    "id": 288,
+    "name": "Lunastra",
+    "rarity": "Epic",
+    "price": 480,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/l/ln/Lunastra.png"
+  },
+  {
+    "id": 289,
+    "name": "Rajang (Dragon Form)",
+    "rarity": "Epic",
+    "price": 500,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/r/rj/RajangDragon.png"
+  },
+  {
+    "id": 290,
+    "name": "Zinogre (Dragon Form)",
+    "rarity": "Epic",
+    "price": 500,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/z/zn/ZinogreDragon.png"
+  },
+  {
+    "id": 291,
+    "name": "Astalos",
+    "rarity": "Epic",
+    "price": 480,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/as/Astalos.png"
+  },
+  {
+    "id": 292,
+    "name": "Nergigante",
+    "rarity": "Legendary",
+    "price": 950,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/n/ng/Nergigante.png"
+  },
+  {
+    "id": 293,
+    "name": "Shagaru Magala",
+    "rarity": "Epic",
+    "price": 480,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sm/Shagaru.png"
+  },
+  {
+    "id": 294,
+    "name": "Gore Magala",
+    "rarity": "Epic",
+    "price": 480,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/g/gm/GoreMagala.png"
+  },
+  {
+    "id": 295,
+    "name": "Velkhana",
+    "rarity": "Legendary",
+    "price": 950,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/v/vk/Velkhana.png"
+  },
+  {
+    "id": 296,
+    "name": "Namielle",
+    "rarity": "Epic",
+    "price": 500,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/n/nm/Namielle.png"
+  },
+  {
+    "id": 296,
+    "name": "Namielle",
+    "rarity": "Epic",
+    "price": 500,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/n/nm/Namielle.png"
+  },
+  {
+    "id": 297,
+    "name": "Safi'jiiva",
+    "rarity": "Legendary",
+    "price": 1000,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sj/Safi'jiiva.png"
+  },
+  {
+    "id": 298,
+    "name": "Shenlong Prime",
+    "rarity": "Epic",
+    "price": 480,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sl/ShenlongPrime.png"
+  },
+  {
+    "id": 299,
+    "name": "Draculon",
+    "rarity": "Rare",
+    "price": 320,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dc/Draculon.png"
+  },
+  {
+    "id": 300,
+    "name": "Elder Dragon King",
+    "rarity": "Legendary",
+    "price": 1100,
+    "faction": "Dragons",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/e/ed/ElderDragonKing.png"
+  }
+]
