@@ -1,0 +1,402 @@
+[
+  {
+    "id": 201,
+    "name": "Emperor Rudra Namulith",
+    "rarity": "Legendary",
+    "price": 750,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/r/rd/Rudra.png"
+  },
+  {
+    "id": 202,
+    "name": "Velgrynd",
+    "rarity": "Legendary",
+    "price": 800,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/v/vg/Velgrynd.png"
+  },
+  {
+    "id": 203,
+    "name": "Calgurio",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/c/cl/Calgurio.png"
+  },
+  {
+    "id": 204,
+    "name": "Kondo",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/k/kd/Kondo.png"
+  },
+  {
+    "id": 205,
+    "name": "Damrada",
+    "rarity": "Epic",
+    "price": 380,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dr/Damrada.png"
+  },
+  {
+    "id": 206,
+    "name": "Shogo Taguchi",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/st/Shogo.png"
+  },
+  {
+    "id": 207,
+    "name": "Kyoya Tachibana",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/k/kt/Kyoya.png"
+  },
+  {
+    "id": 208,
+    "name": "Kirara Mizutani",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/k/km/Kirara.png"
+  },
+  {
+    "id": 209,
+    "name": "Masayuki",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/m/ms/Masayuki.png"
+  },
+  {
+    "id": 210,
+    "name": "Arnaud",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/an/Arnaud.png"
+  },
+  {
+    "id": 211,
+    "name": "Bacchus",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/b/bc/Bacchus.png"
+  },
+  {
+    "id": 212,
+    "name": "Ritus",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/r/rt/Ritus.png"
+  },
+  {
+    "id": 213,
+    "name": "Glenda",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/g/gl/Glenda.png"
+  },
+  {
+    "id": 214,
+    "name": "Grigori",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/g/gr/Grigori.png"
+  },
+  {
+    "id": 215,
+    "name": "Velga",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/v/vg/Velga.png"
+  },
+  {
+    "id": 216,
+    "name": "Dante",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dt/Dante.png"
+  },
+  {
+    "id": 217,
+    "name": "Albert",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/ab/Albert.png"
+  },
+  {
+    "id": 218,
+    "name": "Boris",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/b/br/Boris.png"
+  },
+  {
+    "id": 219,
+    "name": "Lukas",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/l/lk/Lukas.png"
+  },
+  {
+    "id": 220,
+    "name": "Marius",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/m/mr/Marius.png"
+  },
+  {
+    "id": 221,
+    "name": "Sophia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sp/Sophia.png"
+  },
+  {
+    "id": 222,
+    "name": "Victor",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/v/vc/Victor.png"
+  },
+  {
+    "id": 223,
+    "name": "Helena",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/h/hl/Helena.png"
+  },
+  {
+    "id": 224,
+    "name": "Damien",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dm/Damien.png"
+  },
+  {
+    "id": 225,
+    "name": "Claudia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/c/cl/Claudia.png"
+  },
+  {
+    "id": 226,
+    "name": "Roland",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/r/rl/Roland.png"
+  },
+  {
+    "id": 227,
+    "name": "Isabella",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/i/ib/Isabella.png"
+  },
+  {
+    "id": 228,
+    "name": "Marcus",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/m/mc/Marcus.png"
+  },
+  {
+    "id": 229,
+    "name": "Elena",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/e/el/Elena.png"
+  },
+  {
+    "id": 230,
+    "name": "Sebastian",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sb/Sebastian.png"
+  },
+  {
+    "id": 231,
+    "name": "Cecilia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/c/cc/Cecilia.png"
+  },
+  {
+    "id": 232,
+    "name": "Adrian",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/ad/Adrian.png"
+  },
+  {
+    "id": 233,
+    "name": "Beatrice",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/b/bt/Beatrice.png"
+  },
+  {
+    "id": 234,
+    "name": "Oliver",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/o/ol/Oliver.png"
+  },
+  {
+    "id": 235,
+    "name": "Natalia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/n/nt/Natalia.png"
+  },
+  {
+    "id": 236,
+    "name": "Hector",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/h/hc/Hector.png"
+  },
+  {
+    "id": 237,
+    "name": "Camilla",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/c/cm/Camilla.png"
+  },
+  {
+    "id": 238,
+    "name": "Darius",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dr/Darius.png"
+  },
+  {
+    "id": 239,
+    "name": "Selene",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sl/Selene.png"
+  },
+  {
+    "id": 240,
+    "name": "Damian",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dm/Damian.png"
+  },
+  {
+    "id": 241,
+    "name": "Lucia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/l/lc/Lucia.png"
+  },
+  {
+    "id": 242,
+    "name": "Raphael",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/r/rp/Raphael.png"
+  },
+  {
+    "id": 243,
+    "name": "Sophina",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sp/Sophina.png"
+  },
+  {
+    "id": 244,
+    "name": "Leonard",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/l/ld/Leonard.png"
+  },
+  {
+    "id": 245,
+    "name": "Miranda",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/m/mr/Miranda.png"
+  },
+  {
+    "id": 246,
+    "name": "Oscar",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/o/os/Oscar.png"
+  },
+  {
+    "id": 247,
+    "name": "Ignatius",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/i/ig/Ignatius.png"
+  },
+  {
+    "id": 248,
+    "name": "Theresa",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/t/th/Theresa.png"
+  },
+  {
+    "id": 249,
+    "name": "Augustine",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/ag/Augustine.png"
+  },
+  {
+    "id": 250,
+    "name": "Benedict",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Eastern Empire",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/b/bn/Benedict.png"
+  }
+]
