@@ -1,0 +1,402 @@
+[
+  {
+    "id": 101,
+    "name": "Gazelle Dwargo",
+    "rarity": "Epic",
+    "price": 350,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/g/gd/Gazelle.png"
+  },
+  {
+    "id": 102,
+    "name": "Youm",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/y/ym/Youm.png"
+  },
+  {
+    "id": 103,
+    "name": "Hinata Sakaguchi",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/h/hs/Hinata.png"
+  },
+  {
+    "id": 104,
+    "name": "Yuuki Kagurazaka",
+    "rarity": "Epic",
+    "price": 380,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/y/yk/Yuuki.png"
+  },
+  {
+    "id": 105,
+    "name": "Erald",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/e/el/Erald.png"
+  },
+  {
+    "id": 106,
+    "name": "King Edmaris",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/k/ke/Edmaris.png"
+  },
+  {
+    "id": 107,
+    "name": "Archduke Doran",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dr/Doran.png"
+  },
+  {
+    "id": 108,
+    "name": "Mikami",
+    "rarity": "Common",
+    "price": 150,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/m/mk/Mikami.png"
+  },
+  {
+    "id": 109,
+    "name": "Kuroda",
+    "rarity": "Common",
+    "price": 150,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/k/kr/Kuroda.png"
+  },
+  {
+    "id": 110,
+    "name": "Shougo Taguchi",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/st/Shougo.png"
+  },
+  {
+    "id": 111,
+    "name": "Kyoya Tachibana",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/k/kt/Kyoya.png"
+  },
+  {
+    "id": 112,
+    "name": "Kirara Mizutani",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/k/km/Kirara.png"
+  },
+  {
+    "id": 113,
+    "name": "Masayuki",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/m/ms/Masayuki.png"
+  },
+  {
+    "id": 114,
+    "name": "Arnaud",
+    "rarity": "Epic",
+    "price": 380,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/an/Arnaud.png"
+  },
+  {
+    "id": 115,
+    "name": "Bacchus",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/b/bc/Bacchus.png"
+  },
+  {
+    "id": 116,
+    "name": "Ritus",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/r/rt/Ritus.png"
+  },
+  {
+    "id": 117,
+    "name": "Glenda",
+    "rarity": "Epic",
+    "price": 380,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/g/gl/Glenda.png"
+  },
+  {
+    "id": 118,
+    "name": "Grigori",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/g/gr/Grigori.png"
+  },
+  {
+    "id": 119,
+    "name": "Velga",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/v/vg/Velga.png"
+  },
+  {
+    "id": 120,
+    "name": "Dante",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dt/Dante.png"
+  },
+  {
+    "id": 121,
+    "name": "Albert",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/ab/Albert.png"
+  },
+  {
+    "id": 122,
+    "name": "Boris",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/b/br/Boris.png"
+  },
+  {
+    "id": 123,
+    "name": "Lukas",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/l/lk/Lukas.png"
+  },
+  {
+    "id": 124,
+    "name": "Marius",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/m/mr/Marius.png"
+  },
+  {
+    "id": 125,
+    "name": "Sophia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sp/Sophia.png"
+  },
+  {
+    "id": 126,
+    "name": "Victor",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/v/vc/Victor.png"
+  },
+  {
+    "id": 127,
+    "name": "Helena",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/h/hl/Helena.png"
+  },
+  {
+    "id": 128,
+    "name": "Damien",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dm/Damien.png"
+  },
+  {
+    "id": 129,
+    "name": "Claudia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/c/cl/Claudia.png"
+  },
+  {
+    "id": 130,
+    "name": "Roland",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/r/rl/Roland.png"
+  },
+  {
+    "id": 131,
+    "name": "Isabella",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/i/ib/Isabella.png"
+  },
+  {
+    "id": 132,
+    "name": "Marcus",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/m/mc/Marcus.png"
+  },
+  {
+    "id": 133,
+    "name": "Elena",
+    "rarity": "Epic",
+    "price": 400,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/e/el/Elena.png"
+  },
+  {
+    "id": 134,
+    "name": "Sebastian",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sb/Sebastian.png"
+  },
+  {
+    "id": 135,
+    "name": "Cecilia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/c/cc/Cecilia.png"
+  },
+  {
+    "id": 136,
+    "name": "Adrian",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/a/ad/Adrian.png"
+  },
+  {
+    "id": 137,
+    "name": "Beatrice",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/b/bt/Beatrice.png"
+  },
+  {
+    "id": 138,
+    "name": "Oliver",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/o/ol/Oliver.png"
+  },
+  {
+    "id": 139,
+    "name": "Natalia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/n/nt/Natalia.png"
+  },
+  {
+    "id": 140,
+    "name": "Hector",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/h/hc/Hector.png"
+  },
+  {
+    "id": 141,
+    "name": "Camilla",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/c/cm/Camilla.png"
+  },
+  {
+    "id": 142,
+    "name": "Darius",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dr/Darius.png"
+  },
+  {
+    "id": 143,
+    "name": "Selene",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sl/Selene.png"
+  },
+  {
+    "id": 144,
+    "name": "Damian",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/d/dm/Damian.png"
+  },
+  {
+    "id": 145,
+    "name": "Lucia",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/l/lc/Lucia.png"
+  },
+  {
+    "id": 146,
+    "name": "Raphael",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/r/rp/Raphael.png"
+  },
+  {
+    "id": 147,
+    "name": "Sophina",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/s/sp/Sophina.png"
+  },
+  {
+    "id": 148,
+    "name": "Leonard",
+    "rarity": "Rare",
+    "price": 300,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/l/ld/Leonard.png"
+  },
+  {
+    "id": 149,
+    "name": "Miranda",
+    "rarity": "Epic",
+    "price": 420,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/m/mr/Miranda.png"
+  },
+  {
+    "id": 150,
+    "name": "Oscar",
+    "rarity": "Rare",
+    "price": 280,
+    "faction": "Humans",
+    "image_url": "https://static.wikia.nocookie.net/tensei-shitara/images/o/os/Oscar.png"
+  }
+]
