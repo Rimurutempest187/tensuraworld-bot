@@ -2,7 +2,24 @@ import json
 import random
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
+import json
+import os
 
+# Load user data
+def load_users():
+    if not os.path.exists("users.json"):
+        # auto-create empty users.json if not exist
+        with open("users.json", "w", encoding="utf-8") as f:
+            json.dump({}, f, indent=2)
+        return {}
+    else:
+        with open("users.json", "r", encoding="utf-8") as f:
+            return json.load(f)
+
+# Save user data
+def save_users(users):
+    with open("users.json", "w", encoding="utf-8") as f:
+        json.dump(users, f, indent=2)
 # Load character data by faction
 def load_faction_data(faction):
     try:
@@ -136,3 +153,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
