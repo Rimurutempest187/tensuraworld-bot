@@ -642,14 +642,6 @@ Guild: {guild}
 🎁 Rewards Earned: {guild_rewards} coins
     """
 
-    update.message.reply_text(msg.strip(), parse_mode="HTML")
-keyboard = [
-    [InlineKeyboardButton("⚔️ Battle", callback_data="menu_battle"),
-     InlineKeyboardButton("📜 Quest", callback_data="menu_quest")],
-    [InlineKeyboardButton("🛒 Shop", callback_data="menu_shop"),
-     InlineKeyboardButton("🎰 Gacha", callback_data="menu_gacha")],
-    [InlineKeyboardButton("👤 Profile", callback_data="menu_profile"),
-     InlineKeyboardButton("📊 Stats", callback_data="menu_stats")]
 ]
 update.message.reply_text("🏠 <b>Main Menu</b>", parse_mode="HTML", reply_markup=InlineKeyboardMarkup(keyboard))
 # ==========================
@@ -711,7 +703,7 @@ def stats(update: Update, context: CallbackContext):
 Example for `/gacha`:
     update.message.reply_text(msg.strip(), parse_mode="HTML")
 
-    # ==========================
+# ==========================
 # 🏠 Main Menu System
 # ==========================
 def mainmenu(update: Update, context: CallbackContext):
@@ -1812,4 +1804,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
