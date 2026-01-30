@@ -1,7 +1,8 @@
 import os, json, random
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, CallbackContext
-
+pip install --upgrade setuptools
+pip install --upgrade apscheduler
 # ==========================
 # 🔒 Security & Data Handling
 # ==========================
@@ -1804,5 +1805,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
