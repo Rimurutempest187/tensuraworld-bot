@@ -1649,17 +1649,12 @@ def halloffame(update: Update, context: CallbackContext):
         msg += "❌ No players in Hall of Fame yet."
 
     update.message.reply_text(msg.strip(), parse_mode="HTML")
-# ==========================
-# 📊 Ranking System
-# ==========================
+
 def ranking(update: Update, context: CallbackContext):
     users = load_users()
     args = context.args
-
-    # Default category
     category = args[0].lower() if args else "coins"
 
-    # Supported categories
     categories = {
         "coins": "💰 Coins",
         "quests": "📜 Quests Completed",
@@ -1671,12 +1666,7 @@ def ranking(update: Update, context: CallbackContext):
         update.message.reply_text("❌ Invalid category. Use /ranking [coins|quests|battles|achievements]")
         return
 
-    # Sort leaderboard
-    top_players = sorted(
-        users.items(),
-        key=lambda x: x[1].get(category, 0),
-        reverse=True
-    )[:5]
+    top_players = sorted(users.items(), key=lambda x: x[1].get(category, 0), reverse=True)[:5]
 
     msg = f"📊 <b>Ranking — {categories[category]}</b>\n\n"
     rank = 1
@@ -1690,7 +1680,6 @@ def ranking(update: Update, context: CallbackContext):
         msg += "❌ No players ranked yet."
 
     update.message.reply_text(msg.strip(), parse_mode="HTML")
-
 # ==========================
 # 🗂 Central Menu System
 # ==========================
@@ -1707,44 +1696,28 @@ def menu(update: Update, context: CallbackContext):
 
     msg = "🗂 <b>Main Menu</b>\n\nChoose a category to explore:"
     update.message.reply_text(msg, parse_mode="HTML", reply_markup=InlineKeyboardMarkup(keyboard))
-### 5. **Reusable UI Components**
-- Create helper functions for menus:
-  ```python
-  def main_menu():
-      return InlineKeyboardMarkup([
-          [InlineKeyboardButton("⚔️ Battle", callback_data="menu_battle"),
-           InlineKeyboardButton("📜 Quest", callback_data="menu_quest")],
-          [InlineKeyboardButton("🛒 Shop", callback_data="menu_shop"),
-           InlineKeyboardButton("🎰 Gacha", callback_data="menu_gacha")],
-          [InlineKeyboardButton("👤 Profile", callback_data="menu_profile"),
-           InlineKeyboardButton("📊 Stats", callback_data="menu_stats")]
-      ])
-# ==========================
-# 🗂 Menu Callback Handler
-# ==========================
+
 def menu_buttons(update: Update, context: CallbackContext):
     query = update.callback_query
     choice = query.data
 
     if choice == "menu_profile":
-        query.edit_message_text("👤 Profile Commands:\n/start, /profile, /profilebadge, /titles")
+        query.edit_message_text("👤 Profile Commands:\n/start, /profile, /journal")
     elif choice == "menu_progression":
-        query.edit_message_text("🏅 Progression Commands:\n/quests, /battles, /achievements, /journal")
+        query.edit_message_text("🏅 Progression Commands:\n/story, /chapter")
     elif choice == "menu_lore":
-        query.edit_message_text("📚 Lore & Story Commands:\n/lore, /story, /chapter, /codex, /library")
+        query.edit_message_text("📚 Lore & Story Commands:\n/lore, /factions")
     elif choice == "menu_collections":
-        query.edit_message_text("🎴 Collection Commands:\n/collections, /rarity, /factions")
+        query.edit_message_text("🎴 Collection Commands:\n/collections, /rarity")
     elif choice == "menu_rankings":
-        query.edit_message_text("🏆 Ranking Commands:\n/halloffame, /ranking, /leaderboard")
+        query.edit_message_text("🏆 Ranking Commands:\n/halloffame, /ranking")
     elif choice == "menu_gallery":
         query.edit_message_text("🏛 Showcase Commands:\n/museum, /gallery")
     elif choice == "menu_settings":
-        query.edit_message_text("⚙️ Settings Commands:\n/feedback, /donate, /perks")
-
+        query.edit_message_text("⚙️ Settings Commands:\n/help")
 # ==========================
 # 🚀 Main
 # ==========================
-
     
 def main():
     if not BOT_TOKEN:
@@ -1805,6 +1778,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
