@@ -1755,20 +1755,14 @@ def main():
     dp.add_handler(CommandHandler("moderation", moderation))
     dp.add_handler(CallbackQueryHandler(moderation_buttons, pattern="^mod_"))
     dp.add_handler(CommandHandler("report", report))
-    dp.add_handler(CommandHandler("feedback", feedback))
     dp.add_handler(CommandHandler("donate", donate))
     dp.add_handler(CommandHandler("perks", perks))
     dp.add_handler(CommandHandler("profilebadge", profilebadge))
     dp.add_handler(CommandHandler("titles", titles))
     dp.add_handler(CommandHandler("rarity", rarity))
-    dp.add_handler(CommandHandler("factions", factions))
     dp.add_handler(CallbackQueryHandler(story_buttons, pattern="^story_"))
-    dp.add_handler(CommandHandler("chapter", chapter))
     dp.add_handler(CallbackQueryHandler(chapter_buttons, pattern="^chapter_"))
-    dp.add_handler(CommandHandler("journal", journal))
-    dp.add_handler(CommandHandler("codex", codex))
     dp.add_handler(CommandHandler("library", library))
-    dp.add_handler(CommandHandler("halloffame", halloffame))
     dp.add_handler(CommandHandler("menu", menu))
     dp.add_handler(CallbackQueryHandler(menu_buttons, pattern="^menu_"))
 
@@ -1778,6 +1772,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
